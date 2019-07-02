@@ -10,6 +10,7 @@ import java.util.Date;
 
 @Getter
 @Setter
+@NoArgsConstructor
 @Entity
 public class Book {
 
@@ -30,5 +31,5 @@ public class Book {
         this.price = price;
         this.publish_date = publish_date;
     }
-    public Book(){}
+
 }
